@@ -1,0 +1,11 @@
+.idea/
+node_modules/
+authentication/
+dist/
+tmp/
+misc/
+*.iml
+webpack-stats.json
+npm-debug.log
+.DS_Store
+translations/messages
