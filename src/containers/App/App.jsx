@@ -1,5 +1,5 @@
 import React, { PropTypes } from 'react';
-import Radium, {PrintStyleSheet} from 'radium';
+import Radium from 'radium';
 import {connect} from 'react-redux';
 import {IntlProvider} from 'react-intl';
 const messages = require('../../../translations/languages/en.json');
@@ -18,7 +18,6 @@ const App = React.createClass({
 			<IntlProvider locale={'en'} messages={messages}>
 				
 					<div>
-						<PrintStyleSheet />
 
 						<h1>App Header</h1>
 
@@ -41,9 +40,9 @@ export default connect( state => {
 styles = {
 	content: {
 		backgroundColor: 'white',
-		'@media screen and (min-resolution: 3dppx), screen and (max-width: 767px)': {
-			backgroundColor: 'green',
-		},
+		// '@media screen and (min-resolution: 3dppx), screen and (max-width: 767px)': {
+		// 	backgroundColor: 'green',
+		// },
 	},
 
 };

@@ -1,4 +1,4 @@
-require('babel-core/polyfill');
+require('babel-polyfill');
 
 const environment = {
 	development: {
@@ -13,7 +13,7 @@ module.exports = Object.assign({
 	port: process.env.PORT,
 	apiPort: process.env.APIPORT,
 	app: {
-		title: 'PubPub',
+		title: 'RadiumBug',
 		description: '',
 		meta: {
 			charSet: 'utf-8',

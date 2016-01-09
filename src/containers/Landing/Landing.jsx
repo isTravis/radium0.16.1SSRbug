@@ -46,8 +46,8 @@ export default connect( state => {
 styles = {
 	testStyle: {
 		color: 'red',
-		'@media screen and (min-resolution: 3dppx), screen and (max-width: 767px)': {
-			color: 'blue',
-		},
+		// '@media screen and (min-resolution: 3dppx), screen and (max-width: 767px)': {
+		// 	color: 'blue',
+		// },
 	}
 };
